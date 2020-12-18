@@ -1,0 +1,32 @@
+url: "/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "Monserrat Olavarria" # the name of your site, e.g. ACME Corp.
+lang: "it-IT"
+copyright: "/copyright/"
+logo: "/image/monserrat_rotonda.jpg"
+logo_class: "rounded-circle"
+name: "Monserrat Olavarria"
+email: "olavarria.balmaceda@gmail.com"
+sidebar: "" # testo o immagini o link da metterre in fondo a  tutti i sidebar
+phone: "+39 342 371 1750"
+work: "cantante <br> educatrice musicale"
+work_long: "insegnante accreditato Audiation Institute, educatrice Cemea, mediatrice culturale, formatrice, si dedica alla scrittura, all'illustrazione e al teatro"
+youtube: "https://www.youtube.com/channel/UCMQJkzvobU3ZikrzYaY3x7w/featured/" #
+me: "https://m.me/avenidamerica/" #
+facebook: "https://www.facebook.com/avenidamerica/" #
+
+collections:
+  menu_main:
+    output: true
+  social:
+    output: true
+permalink: /:title/ 
+
+defaults:
+  - 
+    scope:
+      path: "materiali/video"
+    values:
+      video: true
+
+
