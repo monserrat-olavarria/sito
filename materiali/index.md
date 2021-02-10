@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: password
 title: "Materiali didattici"
 category: "materiali didattici"
 permalink: "/materiali/"
