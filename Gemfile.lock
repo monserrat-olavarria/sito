@@ -84,7 +84,7 @@ DEPENDENCIES
   jekyll (= 4.0.0)
   jekyll-feed
   jekyll-seo-tag
-  nokogiri
+  nokogiri (>= 1.11.0)
   rack (~> 2.1.4)
   rspec
 
